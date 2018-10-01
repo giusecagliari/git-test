@@ -1,0 +1,20 @@
+{
+  "name": "gittest",
+  "version": "1",
+  "description": "test-npm",
+  "main": "index.js",
+  "scripts": {
+   "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+	"lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git clone https://giusecagliari@bitbucket.org/giusecagliari/fullstack_react.git"
+  },
+  "author": "Giuseppe Sanna",
+  "license": "ISC"
+  "dependencies":{
+   "lite-server":"^2.2.2"
+  }
+}
