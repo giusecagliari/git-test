@@ -1,20 +1,22 @@
 {
-  "name": "gittest",
-  "version": "1",
-  "description": "test-npm",
-  "main": "index.js",
+  "name": "lite-sy",
+  "version": "2.2.2",
+  "description": "none",
+  "main": "index.html",
   "scripts": {
-   "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
-	"lite": "lite-server"
+  "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"lite":"lite-server"
+	
   },
   "repository": {
     "type": "git",
-    "url": "git clone https://giusecagliari@bitbucket.org/giusecagliari/fullstack_react.git"
+    "url": "git+https://github.com/giusecagliari/git-test.git"
   },
-  "author": "Giuseppe Sanna",
-  "license": "ISC"
-  "dependencies":{
-   "lite-server":"^2.2.2"
-  }
+  "author": "giuseppe s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giusecagliari/git-test/issues"
+  },
+  "homepage": "https://github.com/giusecagliari/git-test#readme"
 }
